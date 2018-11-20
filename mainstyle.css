@@ -1,0 +1,260 @@
+.sidebar-block {
+	position:fixed;
+	margin:0;
+	padding:0;
+	top:0;
+	left:0;
+	border-right: 3px solid black;
+	background-color: tomato;
+	float: left;
+	height: 100%;
+	width: 20%;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+.logo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	height:160px;
+	width:160px;
+}
+
+.nav-item {
+	display:block;
+	width:100%;
+	vertical-align:middle;
+	background-color:tomato;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	font-size:23px;
+	cursor: pointer;
+	padding:12px 12px;
+	border:2px solid black;
+	border-left: none;
+	border-right:none;
+	overflow: inherit;
+}
+
+.nav-item:not(:last-child) {
+	border-bottom: none;
+}
+
+.nav-item:hover {
+	background-color:grey;
+}
+
+.nav-button1{
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	border-radius:8px;
+	background-color: #008CBA;
+	border-color: #008CBA;
+	font-size:23px;
+	padding: 10px 10px;
+	color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.nav-button:hover{
+	background-color: grey;
+}
+
+.nav-button:active{
+	background-color: grey;
+	box-shadow: 0 5px #666;
+}
+
+.top-block {
+	position:fixed;
+	top:0;
+	left:20%;
+	bottom:60%;
+	width:60%;
+	background-color: tomato;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 750px;
+	max-height:200px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display:none;
+}
+
+.picks{
+	display:block; 
+	margin-left:auto; 
+	margin-right:auto; 
+	max-height:100%;
+	max-width:100%;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: white;
+	font-size: 20px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+.menu-block {
+	position: fixed;
+	left: 20%;
+	bottom: 0;
+	top:40%;
+	width:60%;
+	background-color:white;
+	border:none;
+}
+
+#currentPage {
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+.order-summary-block {
+	position:fixed;
+	margin-left:auto;
+	margin-right:0;
+	padding:0;
+	top:0;
+	right:0;
+	border-left: 3px solid black;
+	background-color: tomato;
+	float: right;
+	height: 100%;
+	width: 20%;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+.button-container {
+	position absolute;
+	margin-top:90%;
+	border-top: 3px solid black;
+}
+
+.order-button {
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:8px;
+	background-color: #008CBA;
+	border-color: #008CBA;
+	font-size:23px;
+	padding: 10px 10px;
+	color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.pay-button {
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius:8px;
+	background-color: #008CBA;
+	border-color: #008CBA;
+	font-size:23px;
+	padding: 10px 10px;
+	color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
